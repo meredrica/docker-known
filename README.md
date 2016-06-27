@@ -22,7 +22,7 @@ How to run it
 -------------
 Just run the docker-compose.yml file in detached mode with [Docker Compose](https://docs.docker.com/compose/):
 
-    export KNOWN_MYSQL_PASSWORD=YORPASSWORD
+    export DOCKER_KNOWN_MYSQL_PASSWORD=YORPASSWORD
     export DOCKER_KNOWN_HOSTNAME=YOURHOSTNAME
     export DOCKER_LETSENCRYPT_EMAIL=YOUREMAIL
     docker-compose up -d
